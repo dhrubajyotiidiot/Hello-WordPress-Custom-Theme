@@ -1,0 +1,17 @@
+@include establish-baseline;
+
+h1 {
+	@include adjust-font-size-to($ms-xlarge);
+}
+
+
+h2 {
+	@include adjust-font-size-to($ms-large);
+}
+
+
+
+
+
+
+

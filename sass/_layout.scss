@@ -1,0 +1,10 @@
+.wrapper {
+	@include grid-container;
+}
+
+.page-template-home-cus-php article {
+	@include grid(4);
+	&:last-child {
+		@include omega;
+	}
+}
